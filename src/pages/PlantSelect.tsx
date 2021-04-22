@@ -60,7 +60,7 @@ function handleEnvironmentSelected(environment:string){
         if(!data)
         return setLoading(true);
         if(page>1)  {
-        setPlants(oldValue=>[...oldValue,...data])
+        setPlants(oldValue=>[...oldValue,debugger...data])
     }  
         setPlants(data);
         setLoading(false);
